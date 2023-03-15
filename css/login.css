@@ -1,0 +1,65 @@
+
+.login{
+    position: absolute;
+    width:40%;
+    height: 85%;
+    /* margin: auto auto;  */
+    border-radius: 1.5rem;
+    background: #FFFFFF;
+    display: grid;
+    place-content: center;
+    place-self: center;
+  
+    }
+  
+    .login > h2{
+      position: absolute;
+      font-family: 'Outfit';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 60px;
+      display: flex;
+      place-self: start center;
+    }
+  
+    input{
+      position: absolute;
+      width: 60%;
+      height: 8%;
+      top: 25%;
+      border-radius: 2rem;
+      place-self: center;
+      text-align: center;
+      background: #F6F6FF;
+      border: solid black 1px;
+  
+      font-family: 'Outfit';
+      font-style: normal;
+      font-size: 1rem;
+    }
+    
+    .login .password{
+      margin-top: 6%;
+      top: 35%;
+    }
+    
+    .login-btn{
+      position: absolute;
+      /* margin-top: 25%; */
+      top: 65%;
+      width: 30%;
+      height: 8%;
+      background-color: #e4e4fe;
+      place-self: center;
+      border-radius: 0.5rem;
+    }
+  
+    .login > a{
+      position: absolute;
+      font-family: 'Outfit';
+      font-style: normal;
+      top: 77%;
+      text-align: center;
+      place-self: center;
+    }
