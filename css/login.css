@@ -1,4 +1,3 @@
-
 .login{
     position: absolute;
     width:40%;
@@ -9,7 +8,8 @@
     display: grid;
     place-content: center;
     place-self: center;
-  
+    font-family: 'Outfit';
+    padding: 2rem;
     }
   
     .login > h2{
@@ -23,6 +23,10 @@
       place-self: start center;
     }
   
+    .login > a{
+      color: rgb(95, 51, 95);
+      /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    }
     input{
       position: absolute;
       width: 60%;
@@ -59,8 +63,9 @@
         /* animation: change-background 1s  ; */
         cursor: pointer;
         background: violet;
-        transition: ease-in 1s;
+        transition: ease-in 0.5s;
     }
+
     .login > a{
       position: absolute;
       font-family: 'Outfit';
